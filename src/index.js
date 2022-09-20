@@ -1,3 +1,1 @@
-
-let x;
-alert(x);
+alert("Welcome to Trung Dũng site");
