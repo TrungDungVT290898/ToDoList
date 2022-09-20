@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trung Dũng</title>
+    <link rel="icon" type="image/x-png" href="sign.png" />
+    <meta charset="UTF-8" />
+    <script src="src/index.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/ce2ee874e9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#header-container">Home</a>
+        <a href="#About">About</a>
+        <a href="#project-section">Projects</a>
+        <a href="#frm-contact">Contact</a>
+      </nav>
+      <div id="header-container">
+        <article id="my-info">
+          <div id="underline"></div>
+          <h1>
+            Nguyễn Trung Dũng
+          </h1>
+          <div id="major">
+            Fullstack Web Developer And IoT Engineer
+          </div>
+          <div id="contact-div">
+            <a id="link-footer" href="#frm-contact">Contact Me</a>
+          </div>
+          <div id="contact-info">
+            <a href="https://www.facebook.com/nguyenjungiun/" target="_blank">
+              <i class="fa-brands fa-2xl fa-facebook"></i>
+            </a>
+            <a href="mailto: nguyentrungdung12a@gmail.com">
+              <i class="fa-sharp fa-2xl fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </article>
+        <article id="avatar">
+          <img src="avatar.jpg" alt="avatar" />
+        </article>
+      </div>
+    </header>
+    <main>
+      <section id="About">
+        <article id="about-img">
+          <img src="avatar2.jpg" alt="avatar" />
+        </article>
+        <article id="about-describe">
+          <div id="about-title">
+            About
+            <div id="about-header-underline"></div>
+          </div>
+          <div id="about-content">
+            I'm Trung Dũng, I've been working in .NET for more 1 year.
+            Currently, I'm learning Back-end Web Technology to discovery my new
+            major.
+          </div>
+
+          <a id="about-contact" href="#frm-contact">
+            Connect with me
+          </a>
+        </article>
+      </section>
+      <section id="project-section">
+        <h1>
+          Projects
+          <div id="project-underline"></div>
+        </h1>
+        <div id="project-list">
+          <div id="project1">
+            <div id="project1-img">
+              <img src="website-avatar.jpg" alt="Project Image" />
+            </div>
+            <h2>Introduce Myself</h2>
+            <div id="project1-title">
+              Tech used: HTML5,CSS3,Javascript
+            </div>
+            <div id="project1-describe">
+              My first project use HTML5,CSS3,Javascript to design and deploy my
+              personal website.
+            </div>
+            <div id="project1-links">
+              <a
+                target="_blank"
+                id="project1-links-live"
+                href="https://x95h2x.csb.app/"
+              >
+                <i class="fa-regular fa-browser"></i>
+                <span>Live Site</span>
+              </a>
+
+              <a
+                target="_blank"
+                href=" https://codesandbox.io/s/peaceful-architecture-x95h2x?file=/index.html"
+                id="project1-links-source"
+              >
+                <i class="fa-solid fa-code"></i>
+                <span>Source code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <form action="#" method="post" id="frm-contact" target="_blank">
+        <h1>Contact me</h1>
+        <input name="name" type="text" placeholder="Your name" required />
+        <input name="mail" type="email" placeholder="Your Mail" required />
+        <input
+          id="phone"
+          name="phone"
+          type="number"
+          placeholder="Your Phone number"
+          required
+        />
+        <textarea
+          name="msg"
+          id="frm-contact-msg"
+          cols="30"
+          rows="10"
+          placeholder="message"
+        ></textarea>
+        <button type="submit" name="frm-contact-submitBtn">
+          Submit
+        </button>
+      </form>
+    </footer>
+  </body>
+</html>
