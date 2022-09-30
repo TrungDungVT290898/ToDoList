@@ -46,9 +46,7 @@ function App () {
   const removeTask = id => {
     setTasks(tasks.filter(task => task.id !== id))
   }
-  const onTransitionEnd = id => {
-    console.log(`Transition end on : ${id}`)
-  }
+
   return (
     <div className='container'>
       <Header title='Hi' subTitle='Hello' />
